@@ -1,0 +1,371 @@
+/* // No media query for `xs` since this is the default in Bootstrap  */
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* header part here*/
+
+    /* logo part here */
+    .navbar .navbar-brand img {
+        height: 50px;
+    }
+
+    /* logo part end here */
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0.63);
+        border-color: rgba(0, 0, 0, 0);
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .social_media {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    /* header part end here */
+
+    /* banner part here */
+
+    .banner_text h1 {
+        font-size: 50px;
+    }
+
+    .order ul li {
+        padding: 0px;
+        text-align: center;
+    }
+
+    /* banner part end here */
+
+    .dish img {
+        display: none;
+    }
+
+    .ing_text h1 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .ing_text p {
+        font-size: 12px;
+    }
+
+    .ing_img1 {
+        display: none;
+    }
+
+    .ing_img3 {
+        display: none;
+    }
+
+    .ing_img2 {
+        text-align: center;
+    }
+
+
+    /* menu part here */
+
+    .menu {
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .one {
+        margin-left: 20%;
+    }
+
+    .two {
+        margin-left: 10%;
+    }
+
+    .text p {
+        text-align: center;
+    }
+
+    /* menu part end here */
+
+
+    /* ingridiant */
+    .review_text h1 {
+        font-size: 28pt;
+    }
+
+    .review_text p {
+        font-size: 15px;
+        padding: 0px 50px;
+    }
+
+    .ing_text {
+        height: 500px;
+        width: 296px;
+    }
+
+    .text img {
+        width: 325px;
+    }
+
+    /* ingridiant end */
+
+
+    /* contact part here */
+
+    .food_dish {
+        width: 50%;
+    }
+
+    .contact {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .contact-form h1 {
+        margin: 0;
+    }
+
+    .contact-form img {
+        margin-left: 0px;
+    }
+
+    .contact-form p {
+        margin-left: 0px;
+    }
+
+    .form {
+        padding-left: 0;
+    }
+
+    .form label {
+        margin: 0;
+    }
+
+    .button_a {
+        margin-left: 0;
+    }
+
+    /* contact part end here */
+
+    /* footer part here */
+
+    footer {
+        height: 100%;
+    }
+
+    /* footer part end here */
+
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* header part here*/
+
+    /* logo part here */
+    .navbar .navbar-brand img {
+        height: 50px;
+    }
+
+    /* logo part end here */
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0.63);
+        border-color: rgba(0, 0, 0, 0);
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .social_media {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    /* header part end here */
+
+    /* banner part here */
+
+    .banner_text h1 {
+        font-size: 65px;
+    }
+
+    .order ul {
+        padding-top: 40px;
+    }
+
+    .order ul li {
+        padding: 0px;
+        text-align: center;
+    }
+
+    /* banner part end here */
+
+    .dish img {
+        display: none;
+    }
+
+    .ing_text h1 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .ing_text p {
+        font-size: 12px;
+    }
+
+    .ing_img1 {
+        display: none;
+    }
+
+    .ing_img3 {
+        display: none;
+    }
+
+    .ing_img2 {
+        text-align: center;
+    }
+
+
+    /* menu part here */
+
+    .menu {
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .one {
+        margin-left: 65%;
+    }
+
+    .two {
+        margin-left: %;
+    }
+
+    .text p {
+        text-align: center;
+    }
+
+    /* menu part end here */
+
+
+    /* ingridiant */
+    .review_text h1 {
+        font-size: 28pt;
+    }
+
+    .review_text p {
+        font-size: 15px;
+        padding: 0px 50px;
+    }
+
+    .ing_text {
+        height: 500px;
+        width: 296px;
+    }
+
+    .text img {
+        width: 325px;
+        margin-left: -85px;
+    }
+
+    /* ingridiant end */
+
+
+    /* contact part here */
+
+    .food_dish {
+        width: 50%;
+    }
+
+    .contact {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .contact-form h1 {
+        margin: 0;
+    }
+
+    .contact-form img {
+        margin-left: 0px;
+    }
+
+    .contact-form p {
+        margin-left: 0px;
+    }
+
+    .form {
+        padding-left: 0;
+    }
+
+    .form label {
+        margin: 0;
+    }
+
+    .button_a {
+        margin-left: 0;
+    }
+
+    /* contact part end here */
+
+    /* footer part here */
+
+    footer {
+        height: 100%;
+    }
+
+    /* footer part end here */
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .form {
+        padding-left: 30px;
+    }
+    .contact-form img{
+        margin-left: 0;
+    }
+    .contact-form p{
+        margin-left: 15px;
+    }
+    .contact-form h1 {
+        margin-left: 0;
+    }
+
+    .button_a{
+        margin-left: 0px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    ...
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    ...
+}
